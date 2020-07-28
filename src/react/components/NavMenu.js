@@ -50,13 +50,13 @@ class NavMenu extends React.Component {
                     Profile
                   </Menu.Item>
                 </Link>
-                <Link to="/messagefeed">
+                {/* <Link to="/messagefeed">
                   {" "}
                   <Menu.Item >
                     <Icon name="envelope" />
                     Message
                   </Menu.Item>
-                </Link>
+                </Link> */}
                 <Link to="/" onClick={this.handleLogout}>
                   {" "}
                   <Menu.Item >

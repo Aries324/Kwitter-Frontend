@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  HomePageFeed,
-  Grid,
-  TrendingNewsFeed,
-  NavMenu,
-  WhoToFollow,
-  SearchBar,
-  MessageList
-} from "../components";
+import { HomePageFeed, Grid, NavMenu, MessageList } from "../components";
 import { userIsAuthenticated } from "../HOCs";
 
 class HomePage extends React.Component {
@@ -20,15 +12,11 @@ class HomePage extends React.Component {
           </Grid.Column>
 
           <Grid.Column width={9}>
-            <HomePageFeed /> 
+            <HomePageFeed />
             <MessageList />
           </Grid.Column>
 
-          <Grid.Column width={4}>
-            <SearchBar />
-            <TrendingNewsFeed />
-            <WhoToFollow />
-          </Grid.Column>
+          <Grid.Column width={4}></Grid.Column>
         </Grid>
       </>
     );

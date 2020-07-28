@@ -3,7 +3,6 @@ export { default as LoginForm } from "./LoginForm";
 export { default as NavMenu} from "./NavMenu";
 export { default as MessageList} from "./MessageList";
 export { default as CreateMessageForm} from "./CreateMessageForm"
-export { default as TrendingNewsFeed} from "./TrendingNewsFeed"
  export { default as CreateUserProfileForm} from "./CreateUserProfileForm"
 
 export { default as DeleteUserProfile} from "./DeleteUserProfile";
@@ -12,10 +11,10 @@ export { default as GetUser} from "./GetUser";
 
 export { default as DeleteMessageButton} from "./DeleteMessageButton"
 
-export { default as WhoToFollow} from "./WhoToFollow"
+
 export { default as HomePageFeed} from "./HomePageFeed"
-export { default as ProfileNewsFeed} from "./ProfileNewsFeed"
-export { default as SearchBar } from "./SearchBar"
+
+
 export { default as UploadProfileImage} from "./UploadProfileImage"
 
 
